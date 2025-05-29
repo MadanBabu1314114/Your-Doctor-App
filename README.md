@@ -1,16 +1,32 @@
-# yourdoctor
+# Your Doctor App
 
-A new Flutter project.
+A simple Flutter application with login, register, and home screen functionality built for assessment purposes. The project demonstrates the use of shared preferences, state management (GetX or Provider), and GitHub integration.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- Splash Screen
+- User Login and Registration
+- Persistent Login using SharedPreferences
+- Home Page Interface
+- State Management (GetX or Provider)
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Screens
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Splash Screen**
+2. **Login & Registration**
+3. **Home Page**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+- **Flutter** (UI Toolkit)
+- **Dart** (Programming Language)
+- **SharedPreferences** (Local storage)
+- **GetX / Provider** (State Management)
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/jr-flutter-dev.git
+cd jr-flutter-dev
