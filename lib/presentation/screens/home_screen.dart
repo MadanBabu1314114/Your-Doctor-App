@@ -87,7 +87,8 @@ class _HomeScreenState extends State<HomeScreen> {
     final primaryBlue = const Color(0xFF2979FF);
 
     return Scaffold(
-      backgroundColor: Colors.grey.shade50,
+      backgroundColor: const Color.fromARGB(255, 234, 242, 244),
+      drawer: Container(),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -201,7 +202,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 const SizedBox(height: 12),
                 SizedBox(
-                  height: 140,
+                  height: 160,
                   child: PageView(
                     padEnds: true,
                     physics: const BouncingScrollPhysics(),

@@ -8,10 +8,11 @@ import 'package:yourdoctor/providers/auth_provider.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(
-    DevicePreview(
-      enabled: !kReleaseMode,
-      builder: (context) => MyApp(), // Wrap your app
-    ),
+    // DevicePreview(
+    //   enabled: !kReleaseMode,
+    //   builder: (context) => MyApp(), // Wrap your app
+    // ),
+    MyApp(),
   );
 }
 
