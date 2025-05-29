@@ -28,5 +28,5 @@ A simple Flutter application with login, register, and home screen functionality
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/jr-flutter-dev.git
-cd jr-flutter-dev
+git clone https://github.com/MadanBabu1314114/Your-Doctor-App.git
+cd Your-Doctor-App
